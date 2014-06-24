@@ -21,7 +21,7 @@ class AssetInstaller extends LibraryInstaller {
     else {
       $config = $composer->getConfig();
       if ($config->has('wcmf-asset-install-dir')) {
-        basePath = $config->get('wcmf-asset-install-dir');
+        $basePath = $config->get('wcmf-asset-install-dir');
       }
     }
     // add trailing slash if missing
