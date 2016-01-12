@@ -1,8 +1,16 @@
 {
     "name": "wcmf/asset-installer",
-    "version": "0.1.0",
-    "description": "Composer asset installer for the wCMF web application framework",
     "type": "composer-plugin",
+    "description": "Composer asset installer for the wCMF web application framework",
+    "keywords": ["wcmf"],
+    "homepage": "http://wcmf.wemove.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ingo Herwig",
+            "email": "ingo@wemove.com"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "wcmf\\Composer": "src/"
