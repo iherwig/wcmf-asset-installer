@@ -20,6 +20,6 @@
         "class": "wcmf\\Composer\\AssetInstallerPlugin"
     },
     "require": {
-        "composer-plugin-api": "^1.0"
+        "composer-plugin-api": "^2.0"
     }
 }
